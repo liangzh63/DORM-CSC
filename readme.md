@@ -4,24 +4,24 @@ The repository for ACL 2023 paper: Disentangled Phonetic Representation for Chin
 We will release the code as soon as possible.
 
 
-## 数据
+## Data
 
-### 数据来源
-数据来源于 ACL 2021 paper REALISE 的[开源库](https://github.com/DaDaMrX/ReaLiSe)
+### Download
+Data is downloaded from ACL 2021 paper [REALISE](https://github.com/DaDaMrX/ReaLiSe)
 
-### 数据处理
-处理代码在 `data_process/data_processor.py`，将数据转换为带有拼音的数据。
+### Data Processing
+The data processing code is `data_process/data_processor.py`.
 
 ```sh
 python data_process/data_processor.py
 ```
 
 
-## 训练与测试
+## Training and Evaluation
 
-模型代码以及运行代码为 ``dorm.py`` 以及 ``dorm_finetune.py``。
+The code of Dorm is ``dorm.py``, and the code of training is ``dorm_finetune.py``.
 
-训练以及评估模型的脚本为 ``train.sh`` 和 ``test.sh``。运行即可（已测试，成功运行）。
+The scripts of training and evaluation are ``train.sh`` and ``test.sh``, respectively.
 
 
 # Acknowledgements
