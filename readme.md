@@ -1,7 +1,7 @@
-## 环境
-代码是基于 [REALISE](https://arxiv.org/abs/2105.12306) 修改的，运行环境设置可参考该文章的仓库。
+# DORM-CSC
+The repository for ACL 2023 paper: Disentangled Phonetic Representation for Chinese Spelling Correction.
 
-通常需要设置环境变量，把 `/..your_path../dorm_project_copy` 加入 `PYTHONPATH` 的环境变量中
+We will release the code as soon as possible.
 
 
 ## 数据
@@ -24,14 +24,6 @@ python data_process/data_processor.py
 训练以及评估模型的脚本为 ``train.sh`` 和 ``test.sh``。运行即可（已测试，成功运行）。
 
 
-## 模型
+# Acknowledgements
+Our code was modified and developed based on [ReaLiSe](https://github.com/DaDaMrX/ReaLiSe), and we would like to express our gratitude to their team.
 
-原始的中文 BERT 模型、预训练后的模型、SOTA DORM 模型存放在 ``models`` 目录下。
-
-
-## 总结
-总的来说，这个项目是基于 [REALISE](https://arxiv.org/abs/2105.12306) 修改的。
-
-除了以上涉及的具体 python 和 bash 文件外，其余许多文件都是 REALISE 项目的。
-
-所以可以先跑通 REALISE 项目，随后再研究这一项目。
