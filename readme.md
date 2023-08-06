@@ -1,15 +1,14 @@
 # DORM-CSC
 The repository for ACL 2023 paper: Disentangled Phonetic Representation for Chinese Spelling Correction.
 
-We will release the code as soon as possible.
 
 
 ## Data
 
 ### Download
-Data is downloaded from ACL 2021 paper [REALISE](https://github.com/DaDaMrX/ReaLiSe)
+Data is downloaded from ACL 2021 paper [ReaLiSe](https://github.com/DaDaMrX/ReaLiSe)
 
-### Data Processing
+### Data Process
 The data processing code is `data_process/data_processor.py`.
 
 ```sh
